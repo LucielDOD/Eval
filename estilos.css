@@ -9,6 +9,12 @@
     width: 100%;
 }
 
+.Menu i{
+    color: azure;
+    vertical-align: middle;
+    padding-left: 15vmax;
+}
+
 .Menu ul{
     list-style-type: none;  
 }
@@ -120,4 +126,9 @@ header h1{
 .foot ul li a:hover{
     background-color: azure;
     color: black;
+}
+
+.foot i{
+    color: azure;
+    vertical-align: middle;
 }
