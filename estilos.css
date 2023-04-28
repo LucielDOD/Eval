@@ -104,7 +104,6 @@ header h1{
 }
 .foot{
     background-color: black;
-    position: fixed;
     overflow: auto;
     width: 100%;
 }
