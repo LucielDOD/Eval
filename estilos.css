@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+
+.Menu{
+    background-color: black;
+}
+
+.Menu ul{
+    display: flex;
+    
+}
+
+.Menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 3px;
+}
+
+.Menu ul li a{
+    text-decoration: none;
+    color: azure;
+}
+.Menu ul li a:hover{
+    background-color: azure;
+    color: black;
+
+}
