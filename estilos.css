@@ -4,18 +4,19 @@
 
 .Menu{
     background-color: black;
-    background-attachment: fixed;
+    position: fixed;
+    overflow: auto;
+    width: 100%;
 }
 
 .Menu ul{
-    display: flex;
-    
+    list-style-type: none;  
 }
 
 .Menu ul li{
     float: left;
-    list-style-type: none;
     padding: 3px;
+
 }
 
 .Menu ul li a{
@@ -37,7 +38,6 @@ header{
 }
 header{
     background-color: azure;  
-    opacity: 80%;
 }
 header h1{
     text-align: center;
